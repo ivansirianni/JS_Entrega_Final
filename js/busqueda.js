@@ -69,9 +69,8 @@ const buscarProductos = ()=>{
             compra.addEventListener("click", ()=>{
             Swal.fire({
             title: 'Ubicación',         
-            html: `Ultimos pasos!, <b>haga click en el siguiente</b> ` +
-            '<a href="https://www.google.com.ar/maps/@-32.9511051,-60.7098175,15z">link</a> ' +
-            ' para ver como llegar.',
+            html: `<b>Últimos pasos!! Haga click en el siguiente enlace para ver COMO LLEGAR: </b> ` +
+            '<a href="https://www.google.com.ar/maps/@-32.9511051,-60.7098175,15z">VER COMO LLEGAR</a>',
             imageUrl: 'https://i.blogs.es/635f55/maps/450_1000.webp',
             imageWidth: 400,
             imageHeight: 200,
